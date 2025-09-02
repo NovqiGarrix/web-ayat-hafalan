@@ -20,7 +20,7 @@ export function Labels() {
     });
 
     return (
-        <div className="mt-7 grid grid-cols-2 gap-4">
+        <div className="mt-6 grid grid-cols-2 gap-4">
             {AYAT_HAFALAN.map((item) => (
                 <Link href={`/labels/${item.label}`} key={item.label}>
                     <div
