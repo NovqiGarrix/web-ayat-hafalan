@@ -10,6 +10,10 @@ interface LabelPageProps {
     params: Promise<{ label: string }>;
 }
 
+export async function generateStaticParams() {
+    return AYAT_HAFALAN.map(item => ({ label: item.label }));
+}
+
 export async function generateMetadata(
     { params }: { params: Promise<{ label: string }> }
 ): Promise<Metadata> {
