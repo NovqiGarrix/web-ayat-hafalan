@@ -2,6 +2,84 @@
 
 export const AYAT_HAFALAN = [
     {
+        label: "A",
+        title: "Kehidupan Baru",
+        verses: [
+            {
+                order: 1,
+                label: "Kristus Sebagai Pusat",
+                verse: "2 Korintus 5:17",
+                text: "Jadi, siapa yang ada di dalam Kristus, ia adalah ciptaan baru: Yang lama sudah berlalu, sesungguhnya yang baru sudah datang."
+            },
+            {
+                order: 2,
+                label: "Kristus Sebagai Pusat",
+                verse: "Galatia 2:19b-20",
+                text: "Aku telah disalibkan dengan Kristus. Namun, aku hidup, tetapi bukan lagi aku sendiri yang hidup, melainkan Kristus yang hidup di dalam aku. Hidup yang sekarang aku hidupi secara jasmani adalah hidup oleh iman dalam Anak Allah yang telah mengasihi aku dan menyerahkan diri-Nya untuk aku."
+            },
+            {
+                order: 3,
+                label: "Ketataatan Kepada Kristus",
+                verse: "Roma 12:1",
+                text: "Karena itu, Saudara-saudara, oleh kemurahan Allah aku menasihatkan kamu, supaya kamu mempersembahkan tubuhmu sebagai persembahan yang hidup, yang kudus, dan yang berkenan kepada Allah: Itulah ibadahmu yang sejati."
+            },
+            {
+                order: 4,
+                label: "Ketataatan Kepada Kristus",
+                verse: "Yohanes 14:21",
+                text: "Siapa yang memegang perintah-perintah-Ku dan melakukannya, dialah yang mengasihi Aku. Siapa yang mengasihi Aku, ia akan dikasihi oleh Bapa-Ku dan Aku pun akan mengasihi dia dana akan menyatakan diri-Ku kepadanya."
+            },
+            {
+                order: 5,
+                label: "Firman Tuhan",
+                verse: "2 Timotius 3:16",
+                text: "Seluruh Kitab Suci diilhamkan Allah dan bermanfaat untuk mengajar, untuk menyatakan kesalahan, untuk memperbaiki kelakuan, dan untuk mendidik orang dalam kebenaran."
+            },
+            {
+                order: 6,
+                label: "Firman Tuhan",
+                verse: "Kolose 3:16",
+                text: "Hendaklah perkataan Kristus tinggal dengan limpahnya di antara kamu, sehingga kamu dengan segala hikmat mengajar dan menegur seorang akan yang lain dan sambil menyanyikan mazmur, puji-pujian dan nyanyian rohani, kamu mengucap syukur kepada Allah di dalam hatimu."
+            },
+            {
+                order: 7,
+                label: "Doa",
+                verse: "Yohanes 15:7",
+                text: "Jikalau kamu tinggal di dalam Aku dan firman-Ku tinggal di dalam kamu, mintalah apa yang kamu kehendaki, maka akan diberikan kepadamu."
+            },
+            {
+                order: 8,
+                label: "Doa",
+                verse: "Filipi 4:6-7",
+                text: "Janganlah khawatir tentang apapun juga, tetapi nyatakanlah dalam segala hal keinginanmu kepada Allah dalam doa dan permohonan dengan ucapan syukur. Damai sejahtera Allah, yang melampaui segala akal, akan memelihara hati dan pikiranmu dalam Kristus Yesus."
+            },
+            {
+                order: 9,
+                label: "Persekutuan",
+                verse: "Matius 18:20",
+                text: "Sebab, di mana dua atau tiga orang berkumpul dalam nama-Ku, di situ Aku ada di tengah-tengah mereka."
+            },
+            {
+                order: 10,
+                label: "Persekutuan",
+                verse: "Ibrani 10:24-25",
+                text: "Marilah kita saling memperhatikan supaya kita saling mendorong dalam kasih dan dalam perbuatan baik. Janganlah kita menjauhkan diri dari pertemuan-pertemuan ibadah kita, seperti yang dibiasakan oleh beberapa orang, tetapi marilah kita saling menasihati, terlebih lagi sementara kamu melihat hari Tuhan semakin mendekat"
+            },
+            {
+                order: 11,
+                label: "Bersaksi",
+                verse: "Kisah Para Rasul 1:8",
+                text: "Tetapi, kamu akan menerima kuasa bilamana Roh Kudus turun ke atas kamu, dan kamu akan menjadi saksi-saksi-Ku di Yerusalem, di seluruh Yudea dan Samaria dan sampai ke ujung bumi."
+            },
+            {
+                order: 12,
+                label: "Bersaksi",
+                verse: "1 Yohanes 1:3",
+                text: "Apa yang telah kami lihat dan kami dengar itu, kami beritakan kepada kamu juga, supaya kamu pun mempunyai persekutuan dengan kami. Persekutuan kami adalah persekutuan dengan Bapa dan dengan Anak-Nya, Yesus Kristus."
+            }
+        ]
+    },
+    {
         label: "C",
         title: "Perlengkapan Dari Tuhan",
         verses: [
