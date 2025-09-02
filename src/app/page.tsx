@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] min-h-screen p-8 gap-16 sm:p-20">
-      <main className="pt-10">
+      <main className="pt-3">
         <h1 className="text-4xl font-bold">Ayat Hafalan</h1>
 
         {/* List ayat hafalan */}
