@@ -53,7 +53,7 @@ export default async function LabelPage({ params }: LabelPageProps) {
     }
 
     return (
-        <div className="font-sans p-8 pb-8 gap-16 sm:p-20">
+        <div className="font-sans p-8 gap-16 sm:p-20">
             <main className="pt-10">
                 <Button asChild>
                     <Link href="/">

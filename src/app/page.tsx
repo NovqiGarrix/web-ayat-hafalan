@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] min-h-screen p-8 pb-20 gap-16 sm:p-20">
+    <div className="font-sans grid grid-rows-[20px_1fr_20px] min-h-screen p-8 gap-16 sm:p-20">
       <main className="pt-10">
         <h1 className="text-4xl font-bold">Ayat Hafalan</h1>
 
@@ -16,7 +16,7 @@ export default function Home() {
         <Labels />
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        {/* Tuhan memberkati */}
+        <p className="font-base italic">Tuhan memberkati</p>
       </footer>
     </div>
   );
