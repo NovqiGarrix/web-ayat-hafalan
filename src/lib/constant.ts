@@ -1,4 +1,42 @@
+export const AYAT_JAMINAN = [
+    {
+        order: 1,
+        label: "Jaminan Keselamatan",
+        verse: "1 Yohanes 5:11-12",
+        text: "Inilah kesaksian itu: Allah telah mengaruniakan hidup yang kekal kepada kita dan hidup itu ada di dalam Anak-Nya. Siapa yang memiliki Anak, ia memiliki hidup; siapa yang tidak memiliki Anak, ia tidak memiliki hidup."
+    },
+    {
+        order: 2,
+        label: "Jaminan Jawaban Doa",
+        verse: "Yohanes 16:24",
+        text: "Sampai sekarang kamu belum meminta sesuatu pun dalam nama-Ku. Mintalah maka kamu akan menerima, supaya penuhlah sukacitamu."
+    },
+    {
+        order: 3,
+        label: "Jaminan Kemenangan Atas Pencobaan",
+        verse: "1 Korintus 10:13",
+        text: "Pencobaan-pencobaan yang kamu alami ialah pencobaan biasa yang tidak melebihi kekuatan manusia. Allah itu setia dan tidak akan membiarkan kamu dicobai melampaui kekuatanmu. Pada waktu kamu dicobai Ia akan memberikan kepadamu jalan keluar, sehingga kamu dapat menanggungnya."
+    },
+    {
+        order: 4,
+        label: "Jaminan Pengampunan Dosa",
+        verse: "1 Yohanes 1:9",
+        text: "Jika kita mengaku dosa kita, Ia setia dan adil, sehingga Ia akan mengampuni segala dosa kita dan menyucikan kita dari segala kejahatan."
+    },
+    {
+        order: 5,
+        label: "Jaminan Bimbingan Tuhan",
+        verse: "Amsal 3:5-6",
+        text: "Percayalah kepada Tuhan dengan segenap hatimu, dan janganlah bersandar pada pengertianmu sendiri. Akuilah Dia dalam seluruh hidupmu, maka Ia akan meluruskan jalanmu."
+    }
+]
 
+export interface Verse {
+    order: number;
+    label: string;
+    verse: string;
+    text: string;
+}
 
 export const AYAT_HAFALAN = [
     {
@@ -27,7 +65,7 @@ export const AYAT_HAFALAN = [
                 order: 4,
                 label: "Ketataatan Kepada Kristus",
                 verse: "Yohanes 14:21",
-                text: "Siapa yang memegang perintah-perintah-Ku dan melakukannya, dialah yang mengasihi Aku. Siapa yang mengasihi Aku, ia akan dikasihi oleh Bapa-Ku dan Aku pun akan mengasihi dia dana akan menyatakan diri-Ku kepadanya."
+                text: "Siapa yang memegang perintah-perintah-Ku dan melakukannya, dialah yang mengasihi Aku. Siapa yang mengasihi Aku, ia akan dikasihi oleh Bapa-Ku dan Aku pun akan mengasihi dia dan akan menyatakan diri-Ku kepadanya."
             },
             {
                 order: 5,
@@ -76,6 +114,84 @@ export const AYAT_HAFALAN = [
                 label: "Bersaksi",
                 verse: "1 Yohanes 1:3",
                 text: "Apa yang telah kami lihat dan kami dengar itu, kami beritakan kepada kamu juga, supaya kamu pun mempunyai persekutuan dengan kami. Persekutuan kami adalah persekutuan dengan Bapa dan dengan Anak-Nya, Yesus Kristus."
+            }
+        ]
+    },
+    {
+        label: "B",
+        title: "Injil",
+        verses: [
+            {
+                order: 1,
+                label: "Semua Berdosa",
+                verse: "Roma 3:23",
+                text: "Karena semua orang telah berbuat dosa dan kehilangan kemuliaan Allah."
+            },
+            {
+                order: 2,
+                label: "Semua Berdosa",
+                verse: "Yohanes 3:19",
+                text: "Inilah hukuman itu: Terang telah datang ke dalam dunia, tetapi manusia lebih menyukai kegelapan daripada terang, sebab perbuatan-perbuatan mereka jahat."
+            },
+            {
+                order: 3,
+                label: "Hukuman Dosa",
+                verse: "Roma 6:23",
+                text: "Sebab, upah dosa ialah maut, tetapi karunia Allah ialah hidup yang kekal dalam Kristus Yesus, Tuhan kita."
+            },
+            {
+                order: 4,
+                label: "Hukuman Dosa",
+                verse: "Roma 5:12",
+                text: "Sebab itu, sama seperti dosa telah masuk ke dalam dunia oleh satu orang, dan melalui dosa itu juga maut, demikianlah maut itu telah menjalar kepada semua orang, karena semua orang telah berbuat dosa."
+            },
+            {
+                order: 5,
+                label: "Hukuman Dibayar Kristus",
+                verse: "Roma 5:8",
+                text: "Namun, Allah menunjukkan kasih-Nya kepada kita dalam hal ini: Ketika kita masih berdosa, Kristus telah mati untuk kita.",
+            },
+            {
+                order: 6,
+                label: "Hukuman Dibayar Kristus",
+                verse: "1 Petrus 3:18",
+                text: "Sebab, juga Kristus telah menderita sekali untuk dosa-dosa kita, Ia yang benar untuk orang-orang yang tidak benar, supaya Ia membawa kamu kepada Allah. Ia, yang telah dibunuh dalam keadaan-Nya sebagai manusia, tetapi telah dihidupkan menurut Roh."
+            },
+            {
+                order: 7,
+                label: "Keselamatan Anugerah Allah",
+                verse: "Efesus 2:8-9",
+                text: "Sebab karena anugerah kamu diselamatkan oleh iman; itu bukan hasil usahamu, tetapi pemberian Allah, itu bukan hasil pekerjaanmu, supaya tidak ada orang yang memegahkan diri."
+            },
+            {
+                order: 8,
+                label: "Keselamatan Anugerah Allah",
+                verse: "Roma 3:24",
+                text: "Dan oleh anugerah-Nya telah dibenarkan dengan cuma-cuma melalui penebusan dalam Kristus Yesus."
+            },
+            {
+                order: 9,
+                label: "Harus Menerima Kristus",
+                verse: "Yohanes 1:12",
+                text: "Namun, semua orang yang menerima-Nya diberi-Nya hak supaya menjadi anak-anak Allah, yaitu mereka yang percaya dalam nama-Nya."
+            },
+            {
+                order: 10,
+                label: "Harus Menerima Kristus",
+                verse: "Wahyu 3:20",
+                text: "Lihat, Aku berdiri di depan pintu dan mengetuk. Jikalau ada orang yang mendengar suara-Ku dan membukakan pintu, Aku akan masuk menemui dia dan makan bersama dia dan ia bersama Aku."
+            },
+            {
+                order: 11,
+                label: "Jaminan Keselamatan",
+                verse: "Yohanes 5:24",
+                text: "Sesungguhnya Aku berkata kepadamu: Siapa saja yang mendengar perkataan-Ku dan percaya kepada Dia yang mengutus Aku, ia mempunyai hidup yang kekal dan tidak turut dihukum, sebab ia sudah pindah dari dalam maut ke dalam hidup."
+            },
+            {
+                order: 12,
+                label: "Jaminan Keselamatan",
+                verse: "1 Yohanes 5:11-12",
+                text: "Inilah kesaksian itu: Allah telah mengaruniakan hidup yang kekal kepada kita dan hidup itu ada di dalam Anak-Nya. Siapa yang memiliki Anak, ia memiliki hidup; siapa yang tidak memiliki Anak, ia tidak memiliki hidup."
             }
         ]
     },

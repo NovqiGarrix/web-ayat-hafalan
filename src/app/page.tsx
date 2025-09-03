@@ -1,3 +1,4 @@
+import { Guarantee } from "@/components/guarantee";
 import { Labels } from "@/components/labels";
 import { Metadata } from "next";
 
@@ -8,14 +9,16 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] min-h-screen p-8 gap-16 sm:p-20">
+    <div className="font-sans min-h-screen p-8 gap-16 sm:p-20">
       <main className="pt-3">
         <h1 className="text-4xl font-bold">Ayat Hafalan</h1>
+
+        <Guarantee />
 
         {/* List ayat hafalan */}
         <Labels />
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+      <footer className="flex flex-wrap items-center mt-8 justify-center">
         <p className="font-base italic">Tuhan memberkati</p>
       </footer>
     </div>

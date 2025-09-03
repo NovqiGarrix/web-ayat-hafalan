@@ -13,14 +13,14 @@ export function Labels() {
         gsap.from('.label', {
             y: 50,
             opacity: 0,
-            duration: 0.8,
+            duration: 0.5,
             stagger: 0.2,
             ease: 'power3.out'
-        });
+        }).delay(0.2);
     });
 
     return (
-        <div className="mt-6 grid grid-cols-2 gap-4">
+        <div className="mt-4 grid grid-cols-2 gap-4">
             {AYAT_HAFALAN.map((item) => (
                 <Link href={`/labels/${item.label}`} key={item.label}>
                     <div
