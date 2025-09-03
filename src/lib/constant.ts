@@ -268,8 +268,8 @@ export const AYAT_HAFALAN = [
             {
                 order: 12,
                 label: "Kemenangan",
-                verse: "1 Yohanes 4:4-5",
-                text: "Kamu berasal dari Allah, anak-anakku, dan kamu telah mengalahkan nabi-nabi palsu itu, sebab Dia yang ada di dalam kamu, lebih besar dari pada dia yang ada di dalam dunia."
+                verse: "1 Yohanes 5:4-5",
+                text: "Sebab semua yang lahir dari Allah, mengalahkan dunia. Inilah kemenangan yang mengalahkan dunia: Iman kita. Siapakah yang mengalahkan dunia, selain dia yang percaya bahwa Yesuslah Anak Allah?"
             }
         ]
     },
